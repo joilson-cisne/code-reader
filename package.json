@@ -1,0 +1,22 @@
+{
+  "name": "code-reader",
+  "version": "1.0.0",
+  "description": "Read and execute a code using an image as input for the source code.",
+  "main": "index.js",
+  "scripts": {
+    "test": "GOOGLE_APPLICATION_CREDENTIALS=./credentials/service-account-key.json node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joilson-cisne/code-reader.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joilson-cisne/code-reader/issues"
+  },
+  "homepage": "https://github.com/joilson-cisne/code-reader#readme",
+  "dependencies": {
+    "@google-cloud/vision": "^0.24.0"
+  }
+}
